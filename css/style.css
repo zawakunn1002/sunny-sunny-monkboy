@@ -12,6 +12,10 @@
   clear: both;
 }
 
+iframe {
+  width: 740px !important;
+}
+
 .main__image {
   width: 100%;
 }
@@ -210,6 +214,7 @@
 .main .twitter .twitter__detail {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .main .youtube {
