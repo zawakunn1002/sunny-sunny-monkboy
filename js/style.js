@@ -7,15 +7,22 @@ $(document).ready(function() {
 
 $('.slider').slick({
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     dots:false,
-    slidesToShow: 2,
+    mobileFirst: true,
+    pauseOnFocus:false,
+    pauseOnHover:false,
+    fade: true,
+    speed: 800,
+    slidesToShow: 1,
     slidesToScroll:1,
     responsive:[
         {
-            breakpoint: 768,
+            breakpoint: 1024,
             settings:{
-                slidesToShow:1,
+                slidesToShow:2,
+                slidesToScroll:1,
+                fade: false,
             }
         },
     ]

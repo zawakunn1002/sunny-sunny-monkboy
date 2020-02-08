@@ -32,7 +32,7 @@
   height: 100%;
 }
 
-.responsive-header .responsive-img img {
+.responsive-header .responsive-img a img {
   width: 100%;
   max-width: 85px;
 }
